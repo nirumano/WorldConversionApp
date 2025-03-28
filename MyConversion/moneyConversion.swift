@@ -9,8 +9,10 @@ import SwiftUI
 
 struct moneyConversion: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        ZStack{
+            LinearGradient(gradient: Gradient(colors: [.blue, .purple]), startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea(.all)
+        }
+        }
 }
 
 #Preview {
